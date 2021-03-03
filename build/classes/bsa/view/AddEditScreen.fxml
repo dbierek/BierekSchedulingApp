@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<FlowPane orientation="VERTICAL" maxHeight="680" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="screenLabel" fill="#101779" layoutX="24.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Add">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <FlowPane orientation="VERTICAL" fx:id="flowPane" maxHeight="360"/>
+      <FlowPane layoutX="14.0" layoutY="42.0" minHeight="30.0" minWidth="400.0">
+         <children>
+            <Button fx:id="actButton" text="Add" defaultButton="true"/>      
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </FlowPane>
+   </children>
+   <padding>
+      <Insets left="10.0" right="10.0" top="10.0" />
+   </padding>
+</FlowPane>
