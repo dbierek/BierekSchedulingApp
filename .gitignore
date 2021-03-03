@@ -1,0 +1,12 @@
+build
+dist
+META-INF
+nbproject
+test
+.gitattributes
+bsaDatabase.mv.db
+bsaDatabase.trace.db
+build.xml
+license
+loginlog.txt
+manifest.mf
