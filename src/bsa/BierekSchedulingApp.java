@@ -34,7 +34,7 @@ public class BierekSchedulingApp extends Application {
       launch(args);
    }
 
-   public static int START_WIDTH = 800;
+   public static int START_WIDTH = 1200;
    public static int START_HEIGHT = 600;
    protected Stage mainStage;
 
@@ -58,7 +58,7 @@ public class BierekSchedulingApp extends Application {
       AnchorPane mainScreen = mainLoader.load();
       MainScreenController controller = mainLoader.getController();
       controller.initializeComponents(mainScreen);
-      Scene scene = new Scene(mainScreen, 900, 600);
+      Scene scene = new Scene(mainScreen, START_WIDTH, START_HEIGHT);
       mainStage.setScene(scene);
       mainStage.setTitle("Bierek Scheduling Application");
       mainStage.show();

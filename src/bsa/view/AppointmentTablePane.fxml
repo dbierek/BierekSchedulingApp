@@ -10,10 +10,10 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<FlowPane hgap="10.0" style="-fx-border-radius: 10 10 10 10; -fx-border-color:#ccc; -fx-border-width: 5px; -fx-background-color: #f1f1f1; -fx-border-width: 1px;-fx-background-color:#eee;-fx-background-radius: 10 10 10 10; " vgap="10.0" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" prefWidth="900.0" maxWidth="900.0" prefHeight="600.0" >
+<FlowPane hgap="10.0" style="-fx-border-radius: 10 10 10 10; -fx-border-color:#ccc; -fx-border-width: 5px; -fx-background-color: #f1f1f1; -fx-border-width: 1px;-fx-background-color:#eee;-fx-background-radius: 10 10 10 10; " vgap="10.0" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" prefWidth="1200.0" maxWidth="1200.0" prefHeight="600.0" >
    <orientation>VERTICAL</orientation>
    <children>
-      <FlowPane fx:id="topButtonPane" hgap="5.0" maxHeight="30.0" prefHeight="30.0" prefWidth="880.0" maxWidth="880.0" >
+      <FlowPane fx:id="topButtonPane" hgap="5.0" maxHeight="30.0" prefHeight="30.0" prefWidth="1180.0" maxWidth="1180.0" >
          <children>
             <!--
                1. number of appointment types by month
@@ -41,7 +41,7 @@
             </FlowPane>
          </children>
       </FlowPane>
-      <TableView fx:id="table" maxHeight="460" prefHeight="460" minHeight="220.0" maxWidth="880.0" minWidth="880.0" prefWidth="880.0" />
+      <TableView fx:id="table" maxHeight="460" prefHeight="460" minHeight="220.0" maxWidth="1180.0" minWidth="880.0" prefWidth="1180.0" />
       <FlowPane fx:id="buttonPane" hgap="5.0" prefWidth="880.0" maxWidth="880.0" >
          <children>
             <Button fx:id="addButton" prefHeight="30.0" text="Add" />

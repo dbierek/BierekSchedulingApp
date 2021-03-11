@@ -174,6 +174,7 @@ public class EntityTablePaneController {
          return col;
       }).forEachOrdered((col) -> { // Lambda expression used to quickly add each of the new columns to the TableView
          if (col != null) {
+            col.setMinWidth(80);
             table.getColumns().add(col);
          }
       });

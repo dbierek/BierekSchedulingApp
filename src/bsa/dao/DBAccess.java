@@ -114,10 +114,10 @@ public class DBAccess {
             if (isFirst) {
                isFirst = false;
             } else {
-               sql.append("\", ");
+               sql.append(", ");
             }
             sql.append("\"");
-            sql.append(field.getName()).append("=?");
+            sql.append(field.getName()).append("\"=?");
          }
          sql.append(" where \"").append(entityClassName).append("Id\"=");
          sql.append(new PropertyDescriptor(entityClassName + "Id", entity.getClass()).getReadMethod().invoke(entity));
